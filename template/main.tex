@@ -1,0 +1,20 @@
+\documentclass[10pt,a4paper,final]{article}
+\input{front-back-matter/preamble}
+\title{Example Title}
+\author{Terry Moschou}
+\begin{document}
+\maketitle
+\pagenumbering{roman} % Page numbers are I, II, III, etc
+\input{front-back-matter/executive-summary}
+\input{front-back-matter/acknowledgements}
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic} % Page numbers are 1, 2, 3, etc
+\input{sections/intro}
+
+\appendix
+\clearpage
+%\bibliographystyle{IEEEtran}
+%\bibliography{front-back-matter/bibliography}
+\end{document}
